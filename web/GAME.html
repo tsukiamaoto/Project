@@ -1,0 +1,62 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio" charset="UTF-8">
+<TITLE>Game</TITLE>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css">
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="UTF-8"></script>
+</HEAD>
+<BODY onload="Write_roulette(), Write_TABLE(), Status_TABLE(mod)">
+	<div id = "round">
+	</div>
+    <div id="Ability_Frame">
+		<div id="Enemyability_Frame">
+            <div id="EnemyAttack">ATK:<div id="EnemyAttack_getdiv"></div></div>
+            <div id="EnemyHp">HP:<div id="EnemyHp_getdiv"></div></div>
+        </div>
+        
+    </div>
+    <div id="Background_Frame">
+		<img id="background_ground" src="background_ground.png"></img>
+		<img id="background_rockfloor" src="background_rockfloor.png"></img>
+		<img id="background_rockfloor2" src="background_rockfloor2.png"></img>
+		<img id="background_rockfloor4" src="background_rockfloor4.png"></img>
+		<img id="background_rockfloor5" src="background_rockfloor5.png"></img>
+		<img id="chest" src="chest.png"></img>
+		<img id="trap_1" src="trap_1.png"></img>
+		<img id="trap_2" src="trap_2.png"></img>
+		<img id="trap_4" src="trap_4.png"></img>
+		<img id="trap_5" src="trap_5.png"></img>
+		<img id="body" src="body.png"></img>
+		<img id="main" src="main.png"></img>
+    </div>
+	
+	<div id= "Monster">
+		<img id="monster_bone" src="monster_bone.png"></img>
+		<img id="monster_insect" src="monster_insect.png"></img>
+		<img id="monster_weretiger" src="monster_weretiger.png"></img>
+		<img id="monster_werewolf" src="monster_werewolf.png"></img>
+		<img id="monster_dragon" src="monster_dragon.png"></img>
+		<img id="armor_1" src="armor_1.png"></img>
+		<img id="armor_2" src="armor_2.png"></img>
+		<img id="weapon_1" src="weapon_1.png"></img>
+		<img id="weapon_2" src="weapon_2.png"></img>
+		<img id="prize" src="prize.png"></img>
+	</div>
+	<div id="Manability_Frame">
+		<div id="ManAttack">ATK:<div id="ManAttack_getdiv"></div></div>
+		<div id="ManHp">HP:<div id="ManHp_getdiv"></div></div>
+		<img id="Manhead" src="manhead.png"></img>
+    </div>
+    <!--<div id="Description_Frame">
+    </div>-->
+    <div id="Roulette_Frame">
+        <button id="stop" type="button" onclick="run_stop()">Stop
+        </button>
+        <button id="next_run" type="button" onclick="run_start()">Run
+        </button>
+    </div>
+    <div id="Rule_Frame">
+    </div>
+<script src="Script.js">
+</script>
+</BODY>

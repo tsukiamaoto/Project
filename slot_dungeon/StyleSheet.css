@@ -1,0 +1,326 @@
+  BODY {
+        background-color: black;
+    }
+	#round{
+		position: absolute;
+		font-size: 32px;
+		font-family: 標楷體;
+		left : 10px;
+		top: 10px;
+		width: 80px;
+		height: 50px;
+		border: 2px white solid; 
+		padding: 6px;
+		color: white;
+		
+	}
+    #Enemyability_Frame {
+        position: relative;
+        border: solid;
+        border-color: white;
+		font-family: Arial;
+        font-size: 15px;
+        width: 150px;
+        height: 100px;
+        color: white;
+        left: 350px;
+        font-family: Arial;
+        font-size: 15px;
+    }
+	#EnemyAttack{
+		position:absolute;
+		top:55px;
+		left:10px;
+	}
+	#EnemyAttack_getdiv{
+		position:absolute;
+		top:0px;
+		left:35px;
+	}
+	#EnemyHp{
+		position:absolute;
+		top:15px;
+		left:10px;
+	}
+	#EnemyHp_getdiv{
+		position:absolute;
+		top:0px;
+		left:35px;
+	}
+	#Manability_Frame{
+		position:relative;
+		border: solid;
+        border-color: white;
+		font-family: Arial;
+        font-size: 15px;
+		width: 500px;
+		height: 80px;
+		color: white;
+		left: 0px;
+		top: 25px;
+	}
+	#Manhead{
+		position:absolute;
+		right:0px;
+		height:100%;
+	}
+	#ManAttack{
+		position:absolute;
+		top:40px;
+		left:10px;
+	}
+	#ManAttack_getdiv{
+		position:absolute;
+		top:0px;
+		left:35px;
+	}
+	#ManHp{
+		position:absolute;
+		top:10px;
+		left:10px;
+	}
+	#ManHp_getdiv{
+		position:absolute;
+		top:0px;
+		left:35px;
+	}
+	
+    #Background_Frame {
+        position: relative;
+        border: solid;
+        border-color: white;
+        width: 500px;
+        height: 245px;
+        color: white;
+        top: 10px;
+        left: 0px;
+    }
+	#main{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#background_ground{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+		
+	}
+	#background_rockfloor{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#background_rockfloor2{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#background_rockfloor4{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#background_rockfloor5{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#background_church2{
+		position:absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#chest{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#trap_1{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#trap_2{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#trap_4{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#trap_5{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	#body{
+		position: absolute;
+		width:100%;
+		height:100%;
+		display:none;
+	}	
+	#Monster{
+		position: absolute;
+		width: 230px;
+		height: 180px;
+		top: 120px;
+		left: 150px;
+	}
+	#monster_bone{
+		position: absolute;
+		display: none;
+		
+	}
+	#monster_dragon{
+		position: absolute;
+		display: none;
+		top: -90px;
+		left: -120px;
+	}
+	#monster_weretiger{
+		position: absolute;
+		display: none;
+	}
+	#monster_werewolf{
+		position: absolute;
+		display: none;
+	}
+	#monster_insect{
+		position: absolute;
+		display: none;
+	}
+	#armor_1{
+		position: absolute;
+		top:50px;
+		left:25px;
+		display: none;
+	}
+	#armor_2{
+		position: absolute;
+		top:50px;
+		left:25px;
+		display: none;
+	}
+	#weapon_1{
+		position: absolute;
+		top:50px;
+		left:25px;
+		display: none;
+	}
+	#weapon_2{
+		position: absolute;
+		top:50px;
+		left:25px;
+		display: none;
+	}
+	#prize{
+		position: absolute;
+		left:-85px;
+		display: none;
+	}
+	
+    #Description_Frame {
+        position: relative;
+        border: groove;
+        border-color: white;
+        width: 500px;
+        height: 130px;
+        color: white;
+        top: 40px;
+        left: 0px;
+        font-family: 微軟正黑體;
+        font-size: 15px;
+        overflow-y: auto;
+    }
+    #Roulette_Frame {
+        position: absolute;
+        border: double;
+        border-color: white;
+        width: 345px;
+        height: 460px;
+        color: white;
+        left: 785px;
+        top: 8px;
+    }
+    #Rule_Frame{
+        position: absolute;
+        border-color: white;
+        width: 250px;
+        height: 470px;
+        color: white;
+        left: 525px;
+        top: 8px;
+        font-size: 30px;
+        text-align: center;
+    }
+    button{
+        position: absolute;
+		font-family: Arial;
+        font-size: 40px;
+		border-radius: 10px;
+        background-color: #000000;
+        border: hidden;
+        color: white;
+        bottom: 2px;
+    }
+    button:hover {
+		text-decoration: underline;
+		font-family: Arial;
+		border-radius: 10px;
+        background-color: #ffffff;
+        color: black;
+    }
+    #stop {
+        left: 0px;
+        bottom: 0px;
+    }
+    #next_run {
+        right: 0px;
+        bottom: 0px;
+    }
+    #Rule_Frame Table{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        border: solid;
+        border-color: white;
+    }
+    #Description_Frame::-webkit-scrollbar {
+        width: 1em;
+    }
+ 
+    #Description_Frame::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 1);
+    }
+ 
+    #Description_Frame::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: 1px solid slategrey;
+    }
+    body::-webkit-scrollbar {
+        width: 1em;
+    }
+ 
+    body::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 1);
+    }
+ 
+    body::-webkit-scrollbar-thumb {
+        background-color: darkgrey;
+        outline: 1px solid slategrey;
+    }
